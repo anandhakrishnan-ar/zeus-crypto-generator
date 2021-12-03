@@ -61,16 +61,16 @@ const Form = () => {
                             <form>
 
                                 <div className="form-group">
-                                    <label className="control-label">Id</label>
+                                    <label className="control-label">ID</label>
                                     <input className="form-control form-white" type="text" value={id} onChange={changeId} />
                                 </div>
 
                                 <div className="form-group">
-                                    <label className="control-label">Db</label>
+                                    <label className="control-label">DB</label>
                                     <input className="form-control form-white" type="text" value={db} onChange={changeDb} />
                                 </div>
                                 <div className="form-group">
-                                    <label className="control-label">Cipher</label>
+                                    <label className="control-label">CIPHER</label>
                                     <textarea className="form-control text-area form-white" value={cipher} readOnly rows="5" />
                                 </div>
                             </form>
