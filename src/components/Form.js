@@ -35,7 +35,7 @@ const Form = () => {
     }
     const generateCipher = () => {
         if (id !== "" && db !== "") {
-            const outlet = { id: id, db: db };
+            const outlet = { id: id, hostDb:{name:db} };
             var data = encryptData(JSON.stringify(outlet));
             changeCipher(data);
             // copyToClipBoard();        
