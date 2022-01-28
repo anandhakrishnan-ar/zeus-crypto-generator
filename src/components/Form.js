@@ -66,7 +66,7 @@ const Form = () => {
                                 </div>
 
                                 <div className="form-group">
-                                    <label className="control-label">DB</label>
+                                    <label className="control-label">Host Name</label>
                                     <input className="form-control form-white" type="text" value={db} onChange={changeDb} />
                                 </div>
                                 <div className="form-group">
